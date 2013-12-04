@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590B2CA28929421091C9095B /* libPods-FontAwesomeKitCustomFont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 614E8212C42A458D8E256185 /* libPods-FontAwesomeKitCustomFont.a */; };
+		CC3BF271184EEE01002B2C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3BF270184EEE01002B2C71 /* Foundation.framework */; };
+		CC3BF273184EEE01002B2C71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3BF272184EEE01002B2C71 /* CoreGraphics.framework */; };
+		CC3BF275184EEE01002B2C71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3BF274184EEE01002B2C71 /* UIKit.framework */; };
+		CC3BF27B184EEE01002B2C71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC3BF279184EEE01002B2C71 /* InfoPlist.strings */; };
+		CC3BF27D184EEE01002B2C71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3BF27C184EEE01002B2C71 /* main.m */; };
+		CC3BF281184EEE01002B2C71 /* FCFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3BF280184EEE01002B2C71 /* FCFAppDelegate.m */; };
+		CC3BF284184EEE01002B2C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3BF282184EEE01002B2C71 /* Main.storyboard */; };
+		CC3BF287184EEE01002B2C71 /* FCFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3BF286184EEE01002B2C71 /* FCFViewController.m */; };
+		CC3BF289184EEE01002B2C71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3BF288184EEE01002B2C71 /* Images.xcassets */; };
+		CC3BF290184EEE01002B2C71 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3BF28F184EEE01002B2C71 /* XCTest.framework */; };
+		CC3BF291184EEE01002B2C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3BF270184EEE01002B2C71 /* Foundation.framework */; };
+		CC3BF292184EEE01002B2C71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3BF274184EEE01002B2C71 /* UIKit.framework */; };
+		CC3BF29A184EEE01002B2C71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC3BF298184EEE01002B2C71 /* InfoPlist.strings */; };
+		CC3BF29C184EEE01002B2C71 /* FontAwesomeKitCustomFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3BF29B184EEE01002B2C71 /* FontAwesomeKitCustomFontTests.m */; };
+		CC3BF2A9184EF020002B2C71 /* FCFCustomIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3BF2A8184EF020002B2C71 /* FCFCustomIcon.m */; };
+		CC3BF2AB184EF2BE002B2C71 /* fontastic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC3BF2AA184EF2BE002B2C71 /* fontastic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC3BF293184EEE01002B2C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3BF265184EEE01002B2C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3BF26C184EEE01002B2C71;
+			remoteInfo = FontAwesomeKitCustomFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12065F6928674957B17ED97B /* Pods-FontAwesomeKitCustomFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeKitCustomFont.xcconfig"; path = "Pods/Pods-FontAwesomeKitCustomFont.xcconfig"; sourceTree = "<group>"; };
+		614E8212C42A458D8E256185 /* libPods-FontAwesomeKitCustomFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontAwesomeKitCustomFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3BF26D184EEE01002B2C71 /* FontAwesomeKitCustomFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAwesomeKitCustomFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3BF270184EEE01002B2C71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC3BF272184EEE01002B2C71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC3BF274184EEE01002B2C71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC3BF278184EEE01002B2C71 /* FontAwesomeKitCustomFont-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeKitCustomFont-Info.plist"; sourceTree = "<group>"; };
+		CC3BF27A184EEE01002B2C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC3BF27C184EEE01002B2C71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC3BF27E184EEE01002B2C71 /* FontAwesomeKitCustomFont-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKitCustomFont-Prefix.pch"; sourceTree = "<group>"; };
+		CC3BF27F184EEE01002B2C71 /* FCFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFAppDelegate.h; sourceTree = "<group>"; };
+		CC3BF280184EEE01002B2C71 /* FCFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFAppDelegate.m; sourceTree = "<group>"; };
+		CC3BF283184EEE01002B2C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC3BF285184EEE01002B2C71 /* FCFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFViewController.h; sourceTree = "<group>"; };
+		CC3BF286184EEE01002B2C71 /* FCFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFViewController.m; sourceTree = "<group>"; };
+		CC3BF288184EEE01002B2C71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC3BF28E184EEE01002B2C71 /* FontAwesomeKitCustomFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeKitCustomFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3BF28F184EEE01002B2C71 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC3BF297184EEE01002B2C71 /* FontAwesomeKitCustomFontTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeKitCustomFontTests-Info.plist"; sourceTree = "<group>"; };
+		CC3BF299184EEE01002B2C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC3BF29B184EEE01002B2C71 /* FontAwesomeKitCustomFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontAwesomeKitCustomFontTests.m; sourceTree = "<group>"; };
+		CC3BF2A7184EF020002B2C71 /* FCFCustomIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFCustomIcon.h; sourceTree = "<group>"; };
+		CC3BF2A8184EF020002B2C71 /* FCFCustomIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCFCustomIcon.m; sourceTree = "<group>"; };
+		CC3BF2AA184EF2BE002B2C71 /* fontastic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontastic.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3BF26A184EEE01002B2C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3BF273184EEE01002B2C71 /* CoreGraphics.framework in Frameworks */,
+				CC3BF275184EEE01002B2C71 /* UIKit.framework in Frameworks */,
+				CC3BF271184EEE01002B2C71 /* Foundation.framework in Frameworks */,
+				590B2CA28929421091C9095B /* libPods-FontAwesomeKitCustomFont.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3BF28B184EEE01002B2C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3BF290184EEE01002B2C71 /* XCTest.framework in Frameworks */,
+				CC3BF292184EEE01002B2C71 /* UIKit.framework in Frameworks */,
+				CC3BF291184EEE01002B2C71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC3BF264184EEE01002B2C71 = {
+			isa = PBXGroup;
+			children = (
+				CC3BF276184EEE01002B2C71 /* FontAwesomeKitCustomFont */,
+				CC3BF295184EEE01002B2C71 /* FontAwesomeKitCustomFontTests */,
+				CC3BF26F184EEE01002B2C71 /* Frameworks */,
+				CC3BF26E184EEE01002B2C71 /* Products */,
+				12065F6928674957B17ED97B /* Pods-FontAwesomeKitCustomFont.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3BF26E184EEE01002B2C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3BF26D184EEE01002B2C71 /* FontAwesomeKitCustomFont.app */,
+				CC3BF28E184EEE01002B2C71 /* FontAwesomeKitCustomFontTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3BF26F184EEE01002B2C71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC3BF270184EEE01002B2C71 /* Foundation.framework */,
+				CC3BF272184EEE01002B2C71 /* CoreGraphics.framework */,
+				CC3BF274184EEE01002B2C71 /* UIKit.framework */,
+				CC3BF28F184EEE01002B2C71 /* XCTest.framework */,
+				614E8212C42A458D8E256185 /* libPods-FontAwesomeKitCustomFont.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC3BF276184EEE01002B2C71 /* FontAwesomeKitCustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				CC3BF2AA184EF2BE002B2C71 /* fontastic.ttf */,
+				CC3BF27F184EEE01002B2C71 /* FCFAppDelegate.h */,
+				CC3BF280184EEE01002B2C71 /* FCFAppDelegate.m */,
+				CC3BF282184EEE01002B2C71 /* Main.storyboard */,
+				CC3BF285184EEE01002B2C71 /* FCFViewController.h */,
+				CC3BF286184EEE01002B2C71 /* FCFViewController.m */,
+				CC3BF288184EEE01002B2C71 /* Images.xcassets */,
+				CC3BF277184EEE01002B2C71 /* Supporting Files */,
+				CC3BF2A7184EF020002B2C71 /* FCFCustomIcon.h */,
+				CC3BF2A8184EF020002B2C71 /* FCFCustomIcon.m */,
+			);
+			path = FontAwesomeKitCustomFont;
+			sourceTree = "<group>";
+		};
+		CC3BF277184EEE01002B2C71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC3BF278184EEE01002B2C71 /* FontAwesomeKitCustomFont-Info.plist */,
+				CC3BF279184EEE01002B2C71 /* InfoPlist.strings */,
+				CC3BF27C184EEE01002B2C71 /* main.m */,
+				CC3BF27E184EEE01002B2C71 /* FontAwesomeKitCustomFont-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC3BF295184EEE01002B2C71 /* FontAwesomeKitCustomFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3BF29B184EEE01002B2C71 /* FontAwesomeKitCustomFontTests.m */,
+				CC3BF296184EEE01002B2C71 /* Supporting Files */,
+			);
+			path = FontAwesomeKitCustomFontTests;
+			sourceTree = "<group>";
+		};
+		CC3BF296184EEE01002B2C71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC3BF297184EEE01002B2C71 /* FontAwesomeKitCustomFontTests-Info.plist */,
+				CC3BF298184EEE01002B2C71 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3BF26C184EEE01002B2C71 /* FontAwesomeKitCustomFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3BF29F184EEE01002B2C71 /* Build configuration list for PBXNativeTarget "FontAwesomeKitCustomFont" */;
+			buildPhases = (
+				18274653752F4FE5B675EF79 /* Check Pods Manifest.lock */,
+				CC3BF269184EEE01002B2C71 /* Sources */,
+				CC3BF26A184EEE01002B2C71 /* Frameworks */,
+				CC3BF26B184EEE01002B2C71 /* Resources */,
+				17D9FD24763246D1A6B63AC1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeKitCustomFont;
+			productName = FontAwesomeKitCustomFont;
+			productReference = CC3BF26D184EEE01002B2C71 /* FontAwesomeKitCustomFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC3BF28D184EEE01002B2C71 /* FontAwesomeKitCustomFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3BF2A2184EEE01002B2C71 /* Build configuration list for PBXNativeTarget "FontAwesomeKitCustomFontTests" */;
+			buildPhases = (
+				CC3BF28A184EEE01002B2C71 /* Sources */,
+				CC3BF28B184EEE01002B2C71 /* Frameworks */,
+				CC3BF28C184EEE01002B2C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3BF294184EEE01002B2C71 /* PBXTargetDependency */,
+			);
+			name = FontAwesomeKitCustomFontTests;
+			productName = FontAwesomeKitCustomFontTests;
+			productReference = CC3BF28E184EEE01002B2C71 /* FontAwesomeKitCustomFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3BF265184EEE01002B2C71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FCF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Indie Works";
+				TargetAttributes = {
+					CC3BF28D184EEE01002B2C71 = {
+						TestTargetID = CC3BF26C184EEE01002B2C71;
+					};
+				};
+			};
+			buildConfigurationList = CC3BF268184EEE01002B2C71 /* Build configuration list for PBXProject "FontAwesomeKitCustomFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3BF264184EEE01002B2C71;
+			productRefGroup = CC3BF26E184EEE01002B2C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3BF26C184EEE01002B2C71 /* FontAwesomeKitCustomFont */,
+				CC3BF28D184EEE01002B2C71 /* FontAwesomeKitCustomFontTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3BF26B184EEE01002B2C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3BF289184EEE01002B2C71 /* Images.xcassets in Resources */,
+				CC3BF27B184EEE01002B2C71 /* InfoPlist.strings in Resources */,
+				CC3BF284184EEE01002B2C71 /* Main.storyboard in Resources */,
+				CC3BF2AB184EF2BE002B2C71 /* fontastic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3BF28C184EEE01002B2C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3BF29A184EEE01002B2C71 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17D9FD24763246D1A6B63AC1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-FontAwesomeKitCustomFont-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18274653752F4FE5B675EF79 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3BF269184EEE01002B2C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3BF281184EEE01002B2C71 /* FCFAppDelegate.m in Sources */,
+				CC3BF2A9184EF020002B2C71 /* FCFCustomIcon.m in Sources */,
+				CC3BF287184EEE01002B2C71 /* FCFViewController.m in Sources */,
+				CC3BF27D184EEE01002B2C71 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3BF28A184EEE01002B2C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3BF29C184EEE01002B2C71 /* FontAwesomeKitCustomFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC3BF294184EEE01002B2C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC3BF26C184EEE01002B2C71 /* FontAwesomeKitCustomFont */;
+			targetProxy = CC3BF293184EEE01002B2C71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC3BF279184EEE01002B2C71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3BF27A184EEE01002B2C71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC3BF282184EEE01002B2C71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3BF283184EEE01002B2C71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC3BF298184EEE01002B2C71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3BF299184EEE01002B2C71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3BF29D184EEE01002B2C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC3BF29E184EEE01002B2C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3BF2A0184EEE01002B2C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12065F6928674957B17ED97B /* Pods-FontAwesomeKitCustomFont.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontAwesomeKitCustomFont/FontAwesomeKitCustomFont-Prefix.pch";
+				INFOPLIST_FILE = "FontAwesomeKitCustomFont/FontAwesomeKitCustomFont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC3BF2A1184EEE01002B2C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12065F6928674957B17ED97B /* Pods-FontAwesomeKitCustomFont.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontAwesomeKitCustomFont/FontAwesomeKitCustomFont-Prefix.pch";
+				INFOPLIST_FILE = "FontAwesomeKitCustomFont/FontAwesomeKitCustomFont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CC3BF2A3184EEE01002B2C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontAwesomeKitCustomFont.app/FontAwesomeKitCustomFont";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontAwesomeKitCustomFont/FontAwesomeKitCustomFont-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FontAwesomeKitCustomFontTests/FontAwesomeKitCustomFontTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CC3BF2A4184EEE01002B2C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontAwesomeKitCustomFont.app/FontAwesomeKitCustomFont";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontAwesomeKitCustomFont/FontAwesomeKitCustomFont-Prefix.pch";
+				INFOPLIST_FILE = "FontAwesomeKitCustomFontTests/FontAwesomeKitCustomFontTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3BF268184EEE01002B2C71 /* Build configuration list for PBXProject "FontAwesomeKitCustomFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3BF29D184EEE01002B2C71 /* Debug */,
+				CC3BF29E184EEE01002B2C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3BF29F184EEE01002B2C71 /* Build configuration list for PBXNativeTarget "FontAwesomeKitCustomFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3BF2A0184EEE01002B2C71 /* Debug */,
+				CC3BF2A1184EEE01002B2C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3BF2A2184EEE01002B2C71 /* Build configuration list for PBXNativeTarget "FontAwesomeKitCustomFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3BF2A3184EEE01002B2C71 /* Debug */,
+				CC3BF2A4184EEE01002B2C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3BF265184EEE01002B2C71 /* Project object */;
+}
